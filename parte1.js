@@ -1,3 +1,0 @@
-
-
-//Exercicio1
