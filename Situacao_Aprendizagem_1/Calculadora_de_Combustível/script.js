@@ -1,8 +1,8 @@
 function calculadoraCombustivel() {
-  const pgasolina = parseFloat(document.getElementById("pgasolina").value);
-  const gasolina = parseFloat(document.getElementById("gasolina").value);
-  const palcool = parseFloat(document.getElementById("palcool").value);
-  const alcool = parseFloat(document.getElementById("alcool").value);
+  let pgasolina = parseFloat(document.getElementById("pgasolina").value);
+  let gasolina = parseFloat(document.getElementById("gasolina").value);
+  let palcool = parseFloat(document.getElementById("palcool").value);
+  let alcool = parseFloat(document.getElementById("alcool").value);
 
   let resultado = document.getElementById("resultado");
 
@@ -23,8 +23,8 @@ function calculadoraCombustivel() {
     return;
   }
 
-  const custoGasolina = pgasolina * gasolina;
-  const custoAlcool = palcool * alcool;
+  let custoGasolina = pgasolina * gasolina;
+  let custoAlcool = palcool * alcool;
 
   let mensagem =
     "<p>Custo total com Gasolina: R$ " + custoGasolina.toFixed(2) + "</p>";
