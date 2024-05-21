@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Produtos</h1>
+    </header>
+
+    <main>
+        <form action="">
+            <div>
+                <label for="nome">Nome do produto</label>
+                <input type="text" id="nome" required>
+            </div>
+            <div>
+                <label for="preco">Preço (R$)</label>
+                <input type="text" id="preco" required>
+            </div>
+
+            <button type="submit" id="enviar">Cadastrar Produto</button>
+        </form>
+
+        <table>
+            <caption>
+                Produtos Cadastrados
+            </caption>
+            <thead>
+                <tr>
+                    <th scope="col">Produto</th>
+                    <th scope="col">Preço (R$)</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela">
+               
+            </tbody>
+            <tfoot>
+                <tr>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
