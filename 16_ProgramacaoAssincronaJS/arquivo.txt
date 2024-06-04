@@ -1,0 +1,3 @@
+Programação Assíncrona:
+A programação assíncrona representa uma abordagem na qual as operações não interrompem o fluxo de execução do programa. 
+Ao invés disso, possibilita que o programa prossiga executando outras tarefas simultaneamente, enquanto aguarda a conclusão de uma operação específica.
