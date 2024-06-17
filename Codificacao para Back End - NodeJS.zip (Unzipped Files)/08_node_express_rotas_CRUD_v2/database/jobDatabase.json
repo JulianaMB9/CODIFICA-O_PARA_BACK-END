@@ -1,0 +1,9 @@
+[
+  { "id": 1, "nome": "desenvolvedor Back End", "salario": 1500 },
+  { "id": 2, "nome": "desenvolvedor Front End", "salario": 1500 },
+  { "id": 3, "nome": "desenvolvedor Full Stack", "salario": 2000 },
+  { "id": 4, "nome": "desenvolvedor javascript", "salario": 3000 },
+  { "id": 5, "nome": "desenvolvedor javascript", "salario": 3000 },
+  { "id": 6, "nome": "desenvolvedor javascript", "salario": 3000 },
+  { "id": 7, "nome": "desenvolvedor javascript", "salario": 3000 }
+]
